@@ -7,7 +7,7 @@ function goAbout() {
 }
 
 function goStrengths() {
-    window.location.href = "project.html";
+    window.location.href = "strengths.html";
 }
 
 function goContact() {
