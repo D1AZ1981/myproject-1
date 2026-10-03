@@ -1,0 +1,46 @@
+* {
+    background-color: black;
+}
+h3 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+hr {
+    color: darkgray;
+    font-size: 40px;
+    font-weight: bolder;
+    
+}
+.img-container {
+   text-align: center;
+   border-color: aqua;
+    
+}
+img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 14px color blue;
+}
+.navbar-container {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+p {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+.button-container {
+    color: blue;
+    font-size: 40px;
+    text-align: left;
+}
+button {
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+    margin-top: 250px;
+}
