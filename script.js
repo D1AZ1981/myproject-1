@@ -6,8 +6,8 @@ function goAbout() {
     window.location.href = "about.html";
 }
 
-function goStrengths() {
-    window.location.href = "strengths.html";
+function goprofessionalskills() {
+    window.location.href = "professionalskills.html";
 }
 
 function goContact() {
