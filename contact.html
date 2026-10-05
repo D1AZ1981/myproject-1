@@ -8,13 +8,13 @@
     </head>
     <body>
                     <h3>My Website</h3>
-            <hr>
+            <hr class="gradient-bar">
             <br>
             <div class="img-container">
                 <img src="images/danny_pic.JPG" alt="Danny pic">
             </div>
             <br>
-            <hr>
+            <hr class="gradient-bar">
             <div class="navbar-container">
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
@@ -22,9 +22,26 @@
                 <a href="contact.html">Contact</a>
             </div>
             <br>
+            <div class="form-border">
+                        
+            <form action="action_page.php" method="get">
+                            <h2>Contact Me</h2>
+                <label for="frame">First Name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="Email">Email:</label>
+                <input type="text" id="Email" name="Email"><br><br>
+                <label for="Message">Message:</label>
+                <input type="textarea" id="textarea" name="textarea"><br><br>
+                <button type="submit">Send</button>
+            </form>
+        </div>
              <div class="button-container">
             <button onclick="goHome()">Next</button>
             </div>
         <script src="script.js"></script>
+        <hr class="gradient-bar">
+        <footer>github | hotmail</footer>
     </body>
 </html> 

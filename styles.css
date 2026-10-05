@@ -6,11 +6,21 @@ h3 {
     text-align: center;
     color: white;
 }
-hr {
-    color: darkgray;
-    font-size: 40px;
-    font-weight: bolder;
-    
+h2 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-decoration: underline ;
+}
+.gradient-bar {
+    height: 5px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(
+        to right,
+        blue, purple, pink
+    );
+          
 }
 .img-container {
    text-align: center;
@@ -28,10 +38,33 @@ img {
     font-size: 40px;
     text-decoration: underline;
 }
+a:hover {
+    color: aqua;
+}
 p {
     text-align: center;
     color: white;
-    font-size: 60px;
+    font-size: 50px;
+}
+.form-border {
+    width: 400px;
+    padding: 5px;
+    margin: 50px auto;
+ 
+    background: linear-gradient(
+        to right,
+        blue,
+        purple,
+        pink
+    );
+    
+    border-radius: 20px;
+}
+form {
+    background-color: aqua;
+    padding: 30px;
+    border-radius: 16px;
+    
 }
 .button-container {
     color: blue;
@@ -39,8 +72,22 @@ p {
     text-align: left;
 }
 button {
+    background: linear-gradient(to right, blue, purple, pink);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover {
+    color: lightblue;
+}
+footer {
     text-align: center;
     font-size: 30px;
-    color: aliceblue;
-    margin-top: 250px;
+    color: white;
+    margin-top: 50px;
+}
+footer:hover {
+    color: aqua;
 }
