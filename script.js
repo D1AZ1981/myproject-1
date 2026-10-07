@@ -6,10 +6,10 @@ function goAbout() {
     window.location.href = "about.html";
 }
 
-function goprofessionalskills() {
-    window.location.href = "professionalskills.html";
+function goProfessionalSkills() {
+    window.location.href = "ProfessionalSkills.html";
 }
 
 function goContact() {
-    window.location.href = "contact.html";
+    window.location.href = "Contact.html";
 }
